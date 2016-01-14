@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context antiJARLocking="true" path="/BigWeb"/>
+
+<Context path="/BigWeb" antiJARLocking="true">
+
+<Resource maxIdle="2"
+          maxActive="10"
+          validationQuery="select 1"
+          url="jdbc:mysql://localhost:3306/bigwebdb"
+          driverClassName="com.mysql.jdbc.Driver"
+          password="1234" username="root"
+          type="javax.sql.DataSource"
+          auth="Container" name="mydatabase"/>
+
+</Context>
