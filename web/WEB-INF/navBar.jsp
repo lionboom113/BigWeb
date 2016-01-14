@@ -21,8 +21,8 @@
 
             <div class="title">Danh Mục Rao Vặt</div>			
 
-            <div class="nav-bar groove" >
-                <ul data-submenu style="/*display: list-item*/" role="menu" class=" main-cate nav nav-pills nav-stacked">											
+            <div class="nav-bar groove dropdown m-b open" >
+                <ul data-submenu style="/*display: list-item*/" role="menu" class="dropdown-menu main-cate nav nav-pills nav-stacked">											
                     <li class="dropdown-submenu" ><a href="#">Cate 1</a>
                         <ul class=" nav nav-pills nav-stacked dropdown-menu"  >
                             <li class=""><a href="#">Sub cate 1</a> </li>
@@ -30,13 +30,13 @@
                         </ul>
                     </li>
                     <li class="dropdown-submenu"><a href="#">Cate 2</a>
-                        <ul class=" nav nav-pills nav-stacked dropdown-menu-right"  >
+                        <ul class=" nav nav-pills nav-stacked dropdown-menu"  >
                             <li><a href="#">Sub cate 1</a> </li>
                             <li><a href="#">Sub cate 2</a> </li>
                         </ul>
                     </li>
-                    <li><a href="#">Cate 3</a>
-                        <ul class="nav nav-pills nav-stacked"  >
+                    <li class="dropdown-submenu"><a href="#">Cate 3</a>
+                        <ul class="nav nav-pills nav-stacked dropdown-menu"  >
                             <li><a href="#">Sub cate 1</a> </li>
                             <li><a href="#">Sub cate 2</a> </li>
                         </ul>

@@ -1,6 +1,8 @@
 $(document).ready(function(){
-//    $('.dropdown-submenu').submenupicker();
-    
+    $('[data-submenu]').submenupicker();
+//    $('.dropdown-submenu').hover(function(){ 
+//        $('.dropdown-toggle', this).trigger('click'); 
+//      });
 //	$(".main-cate > li > ul").hide();
 //	$(".main-cate > li").each(function(index,element){
 //		$(element).mouseenter(function(){
