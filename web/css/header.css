@@ -104,5 +104,11 @@ a:hover{
 	text-align: right;
 }
 .container{
-	margin: 50px 20px 20px 20px;
+	
+}
+.top-header{
+  height : 30px;
+  width: 100%;
+  background-color: #FF9B35;
+  color: #fff;
 }
