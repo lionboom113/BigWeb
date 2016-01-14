@@ -39,7 +39,7 @@
                   Mật khẩu:
                 </td>
                 <td>
-                  <input type="text" name="txtPassword" class="form-control" placeholder="Mật khẩu" class="form-control input-sm"> 
+                  <input type="password" name="txtPassword" class="form-control" placeholder="Mật khẩu" class="form-control input-sm"> 
                 </td>
               </tr>
 
