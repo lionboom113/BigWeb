@@ -1,0 +1,88 @@
+.product-img-big img{
+	width: 100%;
+}
+.product-img-thumb img{
+	width: 100%;
+}
+.product-img-thumb{
+	width: 300px;
+	padding: 0px;
+}
+.thumb-box{
+	width: 150px;
+	padding: 10px;
+}
+.title {
+	color:  #FF9B35;
+	font-weight: 700;
+	padding: 10px 50px;
+	border-top: 1px solid #BDBDBD;
+	border-bottom: 1px solid #BDBDBD;
+	margin-top: 30px;
+	display: block;
+}
+ul,ol{
+	margin: 20px 20px;
+	list-style: none;
+	padding: 20px;
+}
+.info li {
+  font-size: 13px;
+  line-height: 25px;
+  float: left;
+  width: 30%;
+}
+.content{
+	display: block;
+	margin: 10px;
+}
+.clearfix{
+	clear:both;
+}
+#contact_seller_inline .btn{
+	margin: 10px 10px;
+	display: block;
+}
+#contact_seller_inline{
+	border: 1px solid #FFB74D;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: 700;
+}
+#contact_seller{
+	font-weight: 700;
+}
+#contact_seller span{
+	color: #E65100;
+}
+body{
+	padding: 0px 10px;
+}
+.set-min{
+	width: 1100px;
+	margin: auto;
+}
+.img-show{
+	width: 700px;
+	display: inline-block;
+}
+.contact_box_v2{
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+.mua-hang-an-toan{
+	margin-top: 20px;
+}
+.mua-hang-an-toan .safe-title{
+	font-weight: 700;
+}
+.mua-hang-an-toan .safe-content{
+	font-size: 12px;
+}
+.banner-right{
+	width: 200px;
+	height: 350px;
+	margin: 50px;
+	background-color: orange;
+}

@@ -1,0 +1,108 @@
+.banner{
+	width: 50%;
+}
+.float-right{
+	float: right;
+}
+.float-left{
+	float: left;
+}
+.icon{
+	width: 50px;
+	margin: 20px 20px;
+}
+.center{
+ margin: auto;
+    padding: 10px;
+}
+.homePage{
+	margin-top: 50px;
+	width: 70%;
+}
+.selection{
+	
+	width: 300px;
+}
+.select-button{
+	margin: auto;
+	display: inline-block;
+}
+.clear{
+	clear: both;
+}
+.bottom{
+	  display: inline-block;
+}
+.outer {
+  width: 100%;
+  text-align: center;
+}
+
+.inner {
+  display: inline-block;
+}
+.navigation{
+	width: 80%;
+	margin: 30px;
+}
+.sp-dv{
+	width: 50%;
+	margin: 50px 0px;
+}
+.info-link{
+	margin: 30px;
+}
+.navigation .info-link{
+	font-weight: 700;
+}
+.btn{
+	border-radius: 0px;
+	
+}
+.btn-warning{
+	background-color: #FF9B35;
+}
+a{
+	color :#5F96FF;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.sp-dv .btn{
+	height: 70px;
+	width:  200px;
+	font-size: 25px;
+	font-weight: 700;
+}
+.search-navi{
+	background-color: #DBDBDB;
+	padding: 10px 0px;
+}
+.header .input-group .form-control{
+	width: auto;
+	display: inline-block;
+	border-radius: 0px;
+}
+.input-group .btn-search{
+	background-image: url("../img/magnify.png");
+	background-repeat: no-repeat;
+	background-position: 5px 50%;
+	padding-left: 30px;
+	background-color: #337ab7;
+	height: 34px;
+}
+
+.title{
+	padding: 5px;
+	background-color: orange;
+	color: white;
+	margin-bottom:10px;
+}
+
+.sort-place{
+	text-align: right;
+}
+.container{
+	margin: 50px 20px 20px 20px;
+}
