@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 14, 2016, 1:30:45 PM
+    Author     : baongoc
+*/
+
+.nav  a{
+    text-decoration: none;
+    color: white !important;
+    background-color: orange;
+    border-radius: 0px !important;
+}
+
+.nav  a:hover{    
+    background-color: #FFB74D !important;
+}
+.sub-cate {
+    background-color: #FFFFE1;
+    padding:0px;
+    position:absolute;
+    top:42px;
+    left: 300px;
+    
+}
+
+.dropdown-menu,.dropdown-submenu{
+    padding: 0px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+ .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
