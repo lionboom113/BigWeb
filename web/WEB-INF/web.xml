@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <welcome-file-list>
+    <welcome-file>/WEB-INF/homepage.jsp</welcome-file>
+  </welcome-file-list>  
+  <servlet>
+    <servlet-name>loginPage</servlet-name>
+    <jsp-file>/WEB-INF/loginPage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginPage</servlet-name>
+    <url-pattern>/loginPage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>registerPage</servlet-name>
+    <jsp-file>/WEB-INF/registerPage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registerPage</servlet-name>
+    <url-pattern>/registerPage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>homepage</servlet-name>
+    <jsp-file>/WEB-INF/homepage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>homepage</servlet-name>
+    <url-pattern>/homepage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>main</servlet-name>
+    <jsp-file>/WEB-INF/main.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>main</servlet-name>
+    <url-pattern>/main</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>newThread</servlet-name>
+    <jsp-file>/WEB-INF/newThread.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>newThread</servlet-name>
+    <url-pattern>/newThread</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>productpage</servlet-name>
+    <jsp-file>/WEB-INF/productpage.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>productpage</servlet-name>
+    <url-pattern>/productpage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>Servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <session-config>
+    <session-timeout>
+      30
+    </session-timeout>
+  </session-config>
+</web-app>
