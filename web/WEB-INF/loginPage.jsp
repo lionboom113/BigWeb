@@ -24,38 +24,40 @@
              font-size: 16px;
              font-weight: bold; line-height: 18px;">ĐĂNG NHẬP</div>
         <div class="groove">    
-          <table>
-            <tr>
-              <td class="alignRight">
-                Tên đăng nhập:
-              </td>
-              <td>
-                <input type="text" name="txtUsername" class="form-control" placeholder="Tên đăng nhập" class="form-control input-sm"> 
-              </td>
-            </tr>
-            <tr>
-              <td> 
-                Mật khẩu:
-              </td>
-              <td>
-                <input type="text" name="txtPassword" class="form-control" placeholder="Mật khẩu" class="form-control input-sm"> 
-              </td>
-            </tr>
+          <form action="LoginServlet" method="POST">
+            <table>
+              <tr>
+                <td class="alignRight">
+                  Tên đăng nhập:
+                </td>
+                <td>
+                  <input type="text" name="txtUsername" class="form-control" placeholder="Tên đăng nhập" class="form-control input-sm"> 
+                </td>
+              </tr>
+              <tr>
+                <td> 
+                  Mật khẩu:
+                </td>
+                <td>
+                  <input type="text" name="txtPassword" class="form-control" placeholder="Mật khẩu" class="form-control input-sm"> 
+                </td>
+              </tr>
 
-            <tr>
-              <td></td>
-              <td><button class="btn btn-New">Đăng nhập</button></td>
-            </tr>
-            <tr>
-              <td class="alignRight">
-              </td>
-              <td>
-                <a href="http://www.totdoi.vn/register">Đăng ký thành viên</a> | <a href="http://www.totdoi.vn/register">Quên mật khẩu?</a>
-              </td>
-            </tr>
+              <tr>
+                <td></td>
+                <td><button name="btnLogin" class="btn btn-New">Đăng nhập</button></td>
+              </tr>
+              <tr>
+                <td class="alignRight">
+                </td>
+                <td>
+                  <a href="http://www.totdoi.vn/register">Đăng ký thành viên</a> | <a href="http://www.totdoi.vn/register">Quên mật khẩu?</a>
+                </td>
+              </tr>
 
 
-          </table>
+            </table>
+          </form>
         </div></div>
       <jsp:include page="/WEB-INF/footer.jsp"></jsp:include>
   </body>

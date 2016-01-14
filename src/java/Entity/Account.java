@@ -15,12 +15,12 @@ public class Account implements Serializable{
   private int id;
   private String username;
   private String password;
-  private int role;
+  private boolean role;
 
   public Account() {
   }
 
-  public Account(int id, String username, String password, int role) {
+  public Account(int id, String username, String password, boolean role) {
     this.id = id;
     this.username = username;
     this.password = password;
@@ -48,11 +48,11 @@ public class Account implements Serializable{
     this.password = password;
   }
 
-  public int getRole() {
+  public boolean isAdmin() {
     return role;
   }
 
-  public void setRole(int role) {
+  public void setRole(boolean role) {
     this.role = role;
   }
   

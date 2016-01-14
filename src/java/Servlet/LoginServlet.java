@@ -13,6 +13,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.websocket.Session;
 
 /**
  *
@@ -29,13 +30,15 @@ public class LoginServlet extends HttpServlet {
    * @throws ServletException if a servlet-specific error occurs
    * @throws IOException if an I/O error occurs
    */
-  private static final String homepage = "homepage.jsp";
-  private static final String loginPage = "loginPage.jsp";
+  private static final String homepage = "homepage";
+  private static final String loginPage = "loginPage";
+  private static final String main = "main";
   
   protected void processRequest(HttpServletRequest request, HttpServletResponse response)
           throws ServletException, IOException {
     response.setContentType("text/html;charset=UTF-8");
     PrintWriter out = response.getWriter();
+    
     String txtUsername = request.getParameter("txtUsername");
     String txtPassword = request.getParameter("txtPassword");
     String url = loginPage;

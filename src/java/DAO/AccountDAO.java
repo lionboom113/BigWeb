@@ -23,19 +23,18 @@ public class AccountDAO implements Serializable {
     ResultSet rs = null;
     String sql = "";
     int id;
-    int role;
+    boolean role;
     Account account = null;
     try {
       Connection con = DBUtils.makeConnection();
-      
-      sql = "SELECT 1 FROM tbl_user WHERE username = ? AND password = ? ";
+      sql = "SELECT * FROM tbl_user WHERE username = ? AND password = ? ";
       stm = con.prepareStatement(sql);
       stm.setString(1, username);
       stm.setString(2, password);
       rs = stm.executeQuery();
       if (rs.next()) {
         id = rs.getInt(1);
-        role= rs.getInt(4);
+        role= rs.getBoolean(4);
         account = new Account(id, username, password, role);
         return account;
       }
